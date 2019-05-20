@@ -56,7 +56,7 @@ begin
 
 
   ZSG.CellStyle[1, 2].HorizontalAlignment := taLeftJustify;
-  ZSG.CellStyle[1, 2].Font.Name := 'Times New Roman';
+//  ZSG.CellStyle[1, 2].Font.Name := 'Times New Roman';
   ZSG.CellStyleCol[1, false] := ZSG.CellStyle[1, 2];
   for i := 2 to ZSG.RowCount - 1 do
     ZSG.Cells[0, i] := inttostr(i-1)+'.';
